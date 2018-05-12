@@ -1,0 +1,446 @@
+
+nav{
+    background-color: #000;
+    height: 100px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline-block;
+
+}
+.navbar-brand{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color:whitesmoke;
+    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+}
+a.nav-link:hover{
+
+    color:#ff0000 !important;
+
+}
+.navbar-nav .nav-item .nav-link.active{
+    color: #f00000; !important;
+    font-weight: 900;
+}
+
+nav:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo{
+    float: left;
+    margin-left: 40px;
+
+}
+.logo, .menu{
+    display:inline-block;
+    padding: 15px;
+}
+.menu {
+    float: right; /*menuyu saga almaya yarar*/
+    margin: 20px;
+}
+.menu ul{   /* menu ul veya menu > ul yapabiliriz ikiside ayni*/
+    list-style:none; /* bu da madde isaretlerini yok eder.*/
+    padding-left: 0;
+    margin:0;
+}
+.menu ul li{  /*tum li larda yanyana koymamizi sagliyor.*/
+    display:inline-block;
+    font-family: sans-serif;
+    margin-right:15px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 500px;
+
+
+}
+.menu ul li a.active1:hover {
+
+    background-color: gray;
+    border-radius: 500px;
+    padding:10px;
+    transition:all 0.5s ease;
+    color: ghostwhite;
+}
+.menu ul li a.active2:hover {
+
+    background-color:gray;
+    border-radius: 500px;
+    padding:5px;
+    transition:all 0.5s ease;
+    color: ghostwhite;
+
+}
+.menu ul li a.active3:hover {
+
+    background-color: gray;
+    border-radius: 500px;
+    padding:5px;
+    transition:all 0.5s ease;
+    color: ghostwhite;
+
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/* Text Overlay */
+#lab_video_text_overlay h2 {
+    font-size:4em
+}
+
+#lab_video_text_overlay .btn {
+    border-radius:0;
+    text-transform:uppercase;
+    font-weight:200;
+}
+#lab_video_text_overlay .btn-warning {
+    background-color:#F5D328;
+}
+
+#lab_video_text_overlay {
+    position: absolute;
+    color: #FFF;
+    width: 100%;
+    top: 25%;
+}
+
+#lab_video_text_overlay .container {
+    text-align: center;
+    margin: 0px auto;
+//  background-color: #669900;
+}
+
+@media screen and (max-width:991px) {
+    #lab_video_text_wrap {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    #lab_video_text_wrap {
+        height: 250px;
+    }
+    #lab_video_text_overlay h2 {
+        font-size: 2em;
+    }
+    #lab_video_text_overlay p {
+        font-size: .9em;
+    }
+}
+
+
+.col-left, .col-right{
+    width: 50%;
+    float:left;
+    margin-top:80px;
+}
+.col-left{
+    max-width: 100%;
+    width: 20%;/* bununla resimi biraz daha kuculturuz*/
+    margin-top:150px;
+    width: 150px;
+    height: 120px;
+}
+.col-right{font-family: sans-serif;
+    width: 80%;
+
+}
+
+
+
+.text{
+    margin-top:50px;
+}
+
+.col-right h2{
+    font-weight: 700;
+    text-align: center;
+    margin-right: 100px;
+}
+.col-left{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#profile{
+    padding-bottom: 400px;
+}
+
+.card-deck{
+    margin: 30px;
+}
+
+.row{
+    display: block;
+}
+.col-md-4{
+    display: inline-block;
+}
+
+.fa{
+    text-align: center;
+    font-size: 50px;
+    color: #777;
+    margin-left: 30px;
+
+}
+.fa-address-card{
+    margin-left: 20px;
+}
+.fa-fax{
+    margin-left: 25px;
+}
+.team-circle{
+    width: 110px;
+    height: 110px;
+    background-color: black;
+    border-radius: 120px;
+    margin: 0 auto;
+    border:6px solid #fff;
+    margin-bottom:0px;
+    line-height: 120px;
+
+}
+.header{
+    padding: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+#copyright{
+    background-color: black;
+    color: #777;
+    padding: 20px;
+    text-align: center;
+}
+
+.text{
+    margin: 30px;
+    padding-top: 50px;
+}
+
+#team{
+    margin-top:150px;
+}
+
+.first{
+    text-align: center;
+    margin-left: 38%;
+
+
+}
+.second{
+text-align: center;
+    margin-left: 10%;
+}
+.third{
+    text-align: center;
+    margin-left: 70%;
+    margin-top:-670px;
+}
+.card{
+    margin-bottom: 120px ;
+}
+
+#team h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ff0000;
+}
+
+
+
+#contact{
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 50px 0;
+
+    padding-bottom: 70px;
+
+
+
+}
+.contact-top{
+    margin-top:150px;
+}
+
+.contact-top h3{
+    font-family: 'Monserrat',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ff0000;
+    margin-top:-30px;
+    padding-bottom: 50px;
+}
+
+.contact-top p{
+    font-family: 'Cairo',sans-serif;
+    color: #777;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+
+#name, #email, #phone, #company{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 26px;
+    border-style: none;
+    border-radius: 4px;
+    padding-left: 20px;
+    margin-left: -30%;
+
+
+
+
+}
+textarea{
+    width: 90%;
+    height: 202px;
+    border-style: none;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-left: 5%;
+    color:black;
+
+}
+
+.kalamaki-form-element{
+    font-family: 'Monserrat',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left:500px;
+    margin-top:-30%;
+    margin-left: 600px;
+}
+.submit{
+    margin-top:70px;
+    color:#000;
+    background-color: #ff0000;
+    border-color: #000;
+    font-weight: 900;
+    padding: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-left: 40%;
+}
+.submit:hover{
+    color:#ff0000;
+    background-color: #000;
+    border-color: #ff0000;
+}
+
+.boddy{
+    background-image: url(images/richard-gatley-533872-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boddy-team{
+    background-image: url(images/patrick-lindenberg-191841-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services-top h3{
+    padding-bottom: 80px;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.services-top{
+    margin-top:120px;
+}
+
+
+.services-col h2{
+    margin-bottom: -50px;
+
+}
+.services-left{
+    margin-top:10px;
+    width: 150px;
+}
+
+.resim img{
+    margin-top:150px;
+    width: 150px;
+}
+
+.resim2 img{
+    margin-top:150px;
+}
+.services-left2{
+    margin-top:150px;
+}
+
+.col-md-4{
+    margin-bottom: 50px;
+}
+
+.copyriht{
+    color: #818a91;
+    margin-top:10px;
+    text-align: center;
+
+}
+
+.photoos{
+    padding-bottom: 100px;
+}
+
+.text{
+    margin-top:120px;
+
+    
+}
+.photoos{
+    margin-left:200px;
+}
